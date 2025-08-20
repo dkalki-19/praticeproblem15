@@ -28,7 +28,7 @@ public class HashTableMain {
             Integer count = paraTable.get(word);
             if (count == null) count = 0;
             paraTable.add(word, count + 1);
-        }
+        }  
 
         System.out.println("UC2 - Paragraph Frequencies: " + paraTable);
 
