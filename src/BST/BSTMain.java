@@ -11,5 +11,15 @@ public class BSTMain {
 
         System.out.print("UC1 - Inorder Traversal: ");
         bst.inorder();  // Output: 30 56 70
+        
+     // UC2 - Insert 13 elements
+        int[] elements = {56, 30, 70, 22, 40, 60, 95, 11, 65, 3, 16, 63, 67};
+        for (int el : elements) {
+            bst.insert(el);
+        }
+
+        System.out.print("UC2 - Inorder Traversal: ");
+        bst.inorder();  // Output will be sorted order of inserted elements
     }
+   
 }
