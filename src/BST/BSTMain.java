@@ -20,6 +20,17 @@ public class BSTMain {
 
         System.out.print("UC2 - Inorder Traversal: ");
         bst.inorder();  // Output will be sorted order of inserted elements
+        
+        int[] elements2 = {56, 30, 70, 22, 40, 60, 95, 11, 65, 3, 16, 63, 67};
+        for (int el : elements) {
+            bst.insert(el);
+        }
+
+        System.out.print("Inorder Traversal: ");
+        bst.inorder();
+
+        System.out.println("\nUC3 - Searching 63: " + bst.search(63)); // true
+        System.out.println("UC3 - Searching 100: " + bst.search(100)); // false
     }
    
 }
