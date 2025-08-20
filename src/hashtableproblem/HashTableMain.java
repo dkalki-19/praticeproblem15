@@ -31,6 +31,11 @@ public class HashTableMain {
         }  
 
         System.out.println("UC2 - Paragraph Frequencies: " + paraTable);
+        
+        
+     // UC3: Remove word "avoidable"
+        paraTable.remove("avoidable");
+        System.out.println("UC3 - After Removing 'avoidable': " + paraTable);
 
     }
 }
